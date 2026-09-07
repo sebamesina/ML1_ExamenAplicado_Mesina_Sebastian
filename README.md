@@ -1,6 +1,4 @@
-# ML1_ExamenAplicado_Apellido_Nombre
-
-> ⚠️ Antes de subir: renombra este repositorio en GitHub a `ML1_ExamenAplicado_TuApellido_TuNombre` (reemplaza Apellido/Nombre por los tuyos), tal como exige la ficha de examen.
+# ML1_ExamenAplicado_Mesina_Sebastián
 
 ## Descripción del dataset
 
@@ -39,11 +37,3 @@ Este trabajo fue desarrollado con asistencia de **Claude (Anthropic)** para la e
 
 ## Video
 
-[PENDIENTE — agrega aquí el enlace a tu video en YouTube (no listado), Google Drive o OneDrive]
-
-## Cómo reproducir el análisis
-
-```bash
-pip install -r requirements.txt
-jupyter notebook ML1_ExamenAplicado.ipynb
-```
