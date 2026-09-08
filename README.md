@@ -1,5 +1,7 @@
 # ML1_ExamenAplicado_Mesina_Sebastián
 
+Examen aplicado — Machine Learning I. Análisis de regresión sobre el dataset California Housing: exploración de datos, preprocesamiento sin data leakage, PCA, K-Means, y comparación de dos modelos supervisados.
+
 ## Descripción del dataset
 
 - **Nombre:** California Housing
@@ -31,9 +33,29 @@
 
 **Modelo seleccionado:** Random Forest (menor RMSE), con la advertencia de que Ridge es casi igual de competitivo y mucho más rápido/interpretable — ver justificación completa en el notebook.
 
+**Variables más importantes (Random Forest):** `MedInc` (~89% de la importancia total), `HouseAge`, `AveOccup`, `Latitude`, `AveBedrms` — ver detalle e interpretación de negocio en el notebook.
+
+## Estructura del repositorio
+
+```
+├── ML1_ExamenAplicado.ipynb   # Notebook ejecutado con todo el análisis
+├── README.md
+├── requirements.txt
+├── model_comparison.csv       # Tabla comparativa de métricas
+└── figures/                   # Gráficos exportados (dpi=150)
+```
+
+## Cómo reproducir el análisis
+
+```bash
+pip install -r requirements.txt
+jupyter notebook ML1_ExamenAplicado.ipynb
+```
+
 ## Declaración de uso de IA generativa
 
-Este trabajo fue desarrollado con asistencia de **Claude (Anthropic)** para la estructuración del pipeline de análisis (EDA, preprocesamiento, PCA/K-Means, modelado y evaluación) a partir de datos reales del dataset California Housing. [Completa aquí cualquier detalle adicional que tu profesor solicite sobre el uso de IA.]
+Este trabajo fue desarrollado con asistencia de **Claude (Anthropic)** para la estructuración del pipeline de análisis (EDA, preprocesamiento, PCA/K-Means, modelado y evaluación) a partir de datos reales del dataset California Housing. La IA se utilizó como apoyo en la organización del código, la redacción de las justificaciones metodológicas en Markdown y la generación de material de apoyo para la grabación del video (guion y presentación). El análisis, la ejecución del código y la interpretación de resultados fueron revisados por el autor.
 
 ## Video
+
 https://youtu.be/7oXZbq9Y2Pc
