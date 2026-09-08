@@ -36,4 +36,4 @@
 Este trabajo fue desarrollado con asistencia de **Claude (Anthropic)** para la estructuración del pipeline de análisis (EDA, preprocesamiento, PCA/K-Means, modelado y evaluación) a partir de datos reales del dataset California Housing. [Completa aquí cualquier detalle adicional que tu profesor solicite sobre el uso de IA.]
 
 ## Video
-
+https://youtu.be/7oXZbq9Y2Pc
